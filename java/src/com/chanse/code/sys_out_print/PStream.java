@@ -1,4 +1,4 @@
-package com.chanse.code.SysOutPrint;
+package com.chanse.code.sys_out_print;
 
 import java.io.*;
 
