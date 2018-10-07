@@ -5,15 +5,13 @@ import java.util.Date;
 public class Test {
 
     public static void main(String[] args) throws InterruptedException {
-        System.out.println(new Date() + " - Beginning of the execution");
-        java.lang.Thread.sleep(1000);
-        java.lang.Thread.sleep(1000, 30000);
-        System.out.println(new Date() + " - End of the execution");
+        System.out.println(new Date());
+        Thread.sleep(2000);
+        System.out.println(new Date());
 
         System.out.println();
-
-        System.out.println(new Date() + " - Beginning of the custom execution");
-        Thread.sleep(1000);
-        System.out.println(new Date() + " - End of the custom execution");
+        System.out.println(new Date() + "Custom sleep start");
+        SleepingThread.sleep(2000);
+        System.out.println(new Date() + "Custom sleep end");
     }
 }
