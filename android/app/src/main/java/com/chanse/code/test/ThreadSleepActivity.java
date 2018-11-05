@@ -5,7 +5,7 @@ import android.os.Handler;
 import androidx.appcompat.app.AppCompatActivity;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
+public class ThreadSleepActivity extends AppCompatActivity {
 
     TextView textView;
     Thread uiThread;
