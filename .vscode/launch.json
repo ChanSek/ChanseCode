@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - SwitchPrimitive",
+            "request": "launch",
+            "mainClass": "com.chanse.code.switch_expr.SwitchPrimitive"
+        }
+    ]
+}
