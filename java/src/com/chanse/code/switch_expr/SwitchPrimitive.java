@@ -6,7 +6,6 @@ public class SwitchPrimitive {
         var x = 3;
         byte b = 10;
         short sh = 100;
-        String s = "test";
         switchInt(x);
         switchChar('d');
         switchByte(b);
