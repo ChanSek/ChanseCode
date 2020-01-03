@@ -9,3 +9,7 @@ fun main() {
     printingCalc.add(2, 3)
     printingCalc.sub(2, 3)
 }
+
+fun main(args: Array<String>) {
+    println("Hi")
+}
